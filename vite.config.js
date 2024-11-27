@@ -1,5 +1,7 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/weather-dashboard/', // Important: ensure this matches your GitHub repo name
-});
+  plugins: [react()],
+})
