@@ -1,0 +1,31 @@
+/* WeatherDisplay.css */
+.weather-card {
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .weather-card h2 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .weather-card p {
+    margin: 5px 0;
+  }
+  
+  .weather-card .temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .weather-card .weather-icon {
+    width: 100px;
+    margin: 10px auto;
+  }
+  

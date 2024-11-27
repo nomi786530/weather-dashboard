@@ -1,0 +1,29 @@
+/* Navbar.css */
+.navbar {
+  background-color: #434950;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Ensure it wraps on small screens */
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%; /* Makes title take full width on small screens */
+}
+
+/* Navbar links are optional */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
